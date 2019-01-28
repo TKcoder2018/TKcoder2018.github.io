@@ -1,0 +1,14 @@
+body {
+    background-image: url('https://cnet4.cbsistatic.com/img/DLb7-28w3Ok1bJN4fVdr4Q168SI=/1600x900/2018/11/23/32b191c8-ccfa-4c95-a76f-23918680bb48/bentley-continental-gt-convertible-011.jpg');
+	background-size: auto;
+    background-position: center top;
+	font-family: 'Trebuchet MS', 'Helvetica';
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+
+h1 {
+    color: orangered;
+    font-size: 48px;
+}
