@@ -1,8 +1,8 @@
 body {
     background-image: url('https://images.unsplash.com/photo-1471289549423-04adaecfa1f1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60');
-	background-size: auto;
+    background-size: cover;
     background-position: center top;
-	font-family: 'Trebuchet MS', 'Helvetica';
+    font-family: 'Trebuchet MS', 'Helvetica';
     width: auto;
     height: auto;
     text-align: center;
