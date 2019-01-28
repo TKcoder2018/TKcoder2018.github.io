@@ -1,0 +1,53 @@
+
+body {
+	background-image: url('https://cnet4.cbsistatic.com/img/DLb7-28w3Ok1bJN4fVdr4Q168SI=/1600x900/2018/11/23/32b191c8-ccfa-4c95-a76f-23918680bb48/bentley-continental-gt-convertible-011.jpg');
+	background-size: auto;
+    background-position: center;
+	font-family: 'Trebuchet MS', 'Helvetica';
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+
+body h1 {
+	font-size: 32px;
+    color: orangered;
+}
+
+header {
+    color: black;
+    text-align: center;
+    background-color: beige;
+    border-radius: 10px;
+    border: black solid 5px;
+}
+
+.buttons a {
+    color: orangered;
+    width: 100px;
+    height: auto;
+    display: inline-block;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    background-color: #F3D8A2;
+    border-radius: 5px;
+}
+
+a:hover {
+    color: red;
+}
+
+.main {
+    text-align: center;
+}
+
+.main p {
+    font-size: 24px;
+    color: black;
+}
+
+.footer {
+    color: black;
+    font-size: 12px;
+}
