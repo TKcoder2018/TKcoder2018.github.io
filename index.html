@@ -1,40 +1,14 @@
 <!DOCTYPE html>
 
-<head>
-    <title>Login page</title>
-    <link rel="stylesheet" type="text/css" href="Login.css">
-</head>
-
-<body>
-    <h1 class="title">Welcome to my login page!</h1><br>
+<html>
     
-<SCRIPT>
-    function passWord() {
-        var testV = 1;
-        var pass1 = prompt('Please Enter Your Password',' ');
-        
-        while (testV < 3) {
-            if (!pass1) 
-                history.go(-1);
-            if (pass1.toLowerCase() == "login") {
-                window.open('1st_website_main.html');
-                break;
-            } 
-            
-            testV+=1;
-            var pass1 = 
-                prompt('Access Denied - Password Incorrect, Please Try Again.','Password');
-        }
-        if (pass1.toLowerCase()!="Enter password" & testV ==3) 
-            history.go(-1);
-        return " ";
-} 
-</SCRIPT>
-
-<CENTER>
-<FORM>
-<input type="button" value="Login to TK's website" onClick="passWord()">
-</FORM>
-</CENTER>
+    <head>
+        <title>Login</title>
+        <link rel="stylesheet" type="text/css" href="Login.css">
+    </head>
     
-</body>
+    <body>
+        <script type="text/javascript" src="Login.js"></script>
+    </body>
+    
+</html>
