@@ -5,7 +5,7 @@ while (testV < 3) {
 if (!pass1) 
 history.go(-1);
 if (pass1.toLowerCase() == "login") {
-window.open('main.html');
+window.open("main.html");
 break;
 } 
 testV+=1;
