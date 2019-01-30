@@ -50,4 +50,6 @@ a:hover {
 .footer {
     color: black;
     font-size: 12px;
+    position:fixed;
+    bottom:0;
 }
