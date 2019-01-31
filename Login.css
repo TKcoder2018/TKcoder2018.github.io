@@ -1,14 +1,17 @@
 body {
-    background-image: url('https://www.stockvault.net/data/2012/05/29/131258/preview16.jpg');
-    background-size: cover;
+	background-image: url('https://www.stockvault.net/data/2012/05/29/131258/preview16.jpg');
+	background-size: cover;
     background-position: center top;
-    font-family: 'Trebuchet MS', 'Helvetica';
-    width: auto;
-    height: auto;
+	font-family: 'Trebuchet MS', 'Helvetica';
+    width: 100%;
+    height: 100%;
     text-align: center;
 }
 
-h1 {
-    color: orangered;
-    font-size: 48px;
+.footer {
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    position:fixed;
+    bottom:0;
 }
