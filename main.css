@@ -1,12 +1,11 @@
-
 body {
 	background-image: url('https://www.stockvault.net/data/2012/05/29/131258/preview16.jpg');
 	background-size: cover;
-        background-position: center top;
+    background-position: center top;
 	font-family: 'Trebuchet MS', 'Helvetica';
-        width: auto;
-        height: auto;
-        text-align: center;
+    width: auto;
+    height: auto;
+    text-align: center;
 }
 
 body h1 {
@@ -17,9 +16,9 @@ body h1 {
 header {
     color: black;
     text-align: center;
-    background-color: beige;
+    background-color: #DBEBFF;
     border-radius: 10px;
-    border: black solid 5px;
+    border: black solid 2px;
 }
 
 .buttons a {
@@ -30,7 +29,7 @@ header {
     margin: 10px;
     padding: 5px;
     text-align: center;
-    background-color: #F3D8A2;
+    background-color: beige;
     border-radius: 5px;
 }
 
@@ -49,7 +48,8 @@ a:hover {
 
 .footer {
     color: black;
-    font-size: 12px;
+    font-size: 15px;
+    text-align: center;
     position:fixed;
     bottom:0;
 }
