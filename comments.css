@@ -1,0 +1,51 @@
+body {
+	background-image: url('https://www.stockvault.net/data/2012/05/29/131258/preview16.jpg');
+	background-size: cover;
+    background-position: center top;
+	font-family: 'Trebuchet MS', 'Helvetica';
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+
+body h1 {
+	font-size: 32px;
+    color: orangered;
+}
+
+header {
+    color: black;
+    text-align: center;
+    background-color: #DBEBFF;
+    border-radius: 10px;
+    border: black solid 2px;
+}
+
+.buttons a {
+    color: orangered;
+    width: 100px;
+    height: auto;
+    display: inline-block;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    background-color: beige;
+    border-radius: 5px;
+}
+
+a:hover {
+    color: red;
+}
+
+.main label h2 {
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+.footer {
+    color: black;
+    font-size: 15px;
+    position:fixed;
+    bottom:0;
+}
