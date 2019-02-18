@@ -1,19 +1,19 @@
 * {box-sizing:border-box}
 
 body {
-	background: url(background.jpg) no-repeat center center fixed; 
+    background: url(background.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-	font-family: 'Trebuchet MS', 'Helvetica';
+    font-family: 'Trebuchet MS', 'Helvetica';
     width: auto;
     height: auto;
     text-align: center;
 }
 
 body h1 {
-	font-size: 32px;
+    font-size: 32px;
     color: orangered;
 }
 
@@ -27,7 +27,7 @@ header {
 
 header h1 {
     font-family: 'Lobster Two', "Helvetica", sans-serif;
-	font-size: 40px;
+    font-size: 40px;
     color: orangered;
     text-decoration: underline;
     text-decoration-color: black;
