@@ -1,7 +1,11 @@
+* {box-sizing:border-box}
+
 body {
-	background-image: url('https://www.stockvault.net/data/2012/05/29/131258/preview16.jpg');
-	background-size: cover;
-    background-position: center top;
+	background: url(background.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 	font-family: 'Trebuchet MS', 'Helvetica';
     width: auto;
     height: auto;
@@ -18,7 +22,15 @@ header {
     text-align: center;
     background-color: #DBEBFF;
     border-radius: 10px;
-    border: black solid 2px;
+    border: black solid 3px;
+}
+
+header h1 {
+    font-family: 'Lobster Two', "Helvetica", sans-serif;
+	font-size: 40px;
+    color: orangered;
+    text-decoration: underline;
+    text-decoration-color: black;
 }
 
 .buttons a {
@@ -31,10 +43,17 @@ header {
     text-align: center;
     background-color: beige;
     border-radius: 5px;
+    box-shadow: 0 4px #999;
 }
 
-a:hover {
+.button:hover {
     color: red;
+}
+
+.button:active {
+  background-color: beige;
+  box-shadow: 0 2px #666;
+  transform: translateY(2px);
 }
 
 .main {
@@ -46,9 +65,19 @@ a:hover {
     color: black;
 }
 
+.jokes{
+    background-color: #DBEBFF;
+    border-radius: 10px;
+    border: black solid 2px;
+    width: auto;
+    height: auto;
+    margin: 20px;
+}
+
 .footer {
     color: black;
     font-size: 15px;
     position:fixed;
     bottom:0;
 }
+
