@@ -24,7 +24,7 @@ header {
     border-radius: 10px;
     border: black solid 3px;
 }
-
+    
 header h1 {
     font-family: 'Lobster Two', "Helvetica", sans-serif;
 	font-size: 40px;
@@ -51,12 +51,12 @@ header h1 {
 }
 
 .button:active {
-  background-color: beige;
-  box-shadow: 0 2px #666;
-  transform: translateY(2px);
+    background-color: beige;
+    box-shadow: 0 2px #666;
+    transform: translateY(2px);
 }
 
-.main {
+.title {
     text-align: center;
 }
 
@@ -68,6 +68,10 @@ header h1 {
   position: relative;
   align-content: center;
   margin: auto;
+}
+
+.slideshow-2 {
+    
 }
 
 /* Hide the images by default */
@@ -91,13 +95,28 @@ header h1 {
   user-select: none;
 }
 
+.prev2, .next2 {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: orangered;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
 /* Position the "next button" to the right */
-.next {
+.next, .next2 {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
-.prev {
+.prev, .prev2 {
   left: 0;
   border-radius: 3px 0 0 3px;
 }
@@ -129,7 +148,7 @@ header h1 {
 }
 
 .active, .dot:hover {
-  background-color: #717171;
+  background-color: orangered;
 }
 
 /* Fading animation */
@@ -158,3 +177,4 @@ header h1 {
     position:fixed;
     bottom:0;
 }
+
