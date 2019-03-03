@@ -1,6 +1,6 @@
 function password() {
 var testV = 1;
-var pass1 = prompt('Please Enter Your Password',' ');
+var pass1 = prompt('The Password is "sad" ',' ');
 while (testV < 5) {
 if (!pass1) 
 history.go(-1);
