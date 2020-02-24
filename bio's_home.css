@@ -1,0 +1,102 @@
+* {box-sizing:border-box}
+
+body {
+	background: url(background%202.jpg) no-repeat right center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	font-family: 'Trebuchet MS', 'Helvetica';
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+
+header {
+    background-color: orange;
+    color: black;
+    text-align: left;
+    border-radius: 10px;
+    border: black solid 3px;
+    margin: 10px;
+}
+
+header h1 {
+	font-size: 32px;
+    color: black;
+    font-style: oblique;
+    padding-left: 10px;
+}
+
+header a {
+    width: auto;
+    height: auto;
+    float: right;
+    color: black;
+    background-color: orange;
+    border: black solid 1px;
+    border-radius: 10px;
+    margin: inherit;
+    padding: 5px;
+    box-shadow: 0 3px #999;
+}
+
+.button:hover {
+    color: dimgray;
+    background-color: #FFBA32;
+}
+
+.button:active {  
+  box-shadow: 0 2px #666;
+  transform: translateY(2px);
+}
+
+.bios_box, .other {
+    color: black;
+    background-color: orange;
+    width: auto;
+    max-width: 800px;
+    height: auto;
+    margin: 50px auto;
+    padding: 10px;
+    border: black solid 3px;
+    border-radius: 10px;
+    text-align: center;
+    align-content: center;
+}
+
+.links2 {
+    
+}
+
+.links {
+    display: flex;
+}
+
+.links a {
+    float: left;
+    margin: auto;
+    padding: 5px;
+    background-color: black;
+    color: white;
+}
+
+.links a:hover {
+    color: red;
+}
+
+.links a:active {
+    background-color: #3F3C37;
+}
+
+img {
+    width: 100px;
+    height: 120px;    
+}
+
+.footer {
+    color: black;
+    font-size: 15px;
+    position:fixed;
+    bottom:0;
+}
