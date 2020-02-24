@@ -1,73 +1,32 @@
-* {box-sizing:border-box}
-
 body {
-	background: url(background.jpg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+	background-image: url('background%202.jpg');
+	background-size: auto;
+    background-position: right top;
 	font-family: 'Trebuchet MS', 'Helvetica';
     width: auto;
     height: auto;
     text-align: center;
 }
 
-body h1 {
-	font-size: 32px;
-    color: orangered;
-}
-
-header {
-    color: black;
-    text-align: center;
-    background-color: #DBEBFF;
-    border-radius: 10px;
-    border: black solid 3px;
-}
-
-header h1 {
-    font-family: 'Lobster Two', "Helvetica", sans-serif;
-	font-size: 40px;
-    color: orangered;
-    text-decoration: underline;
-    text-decoration-color: black;
-}
-
-.buttons a {
-    color: orangered;
-    width: 100px;
+body a {
+    width: auto;
     height: auto;
-    display: inline-block;
-    margin: 10px;
+    float: left;
+    color: black;
+    background-color: orange;
+    border: black solid 1px;
+    border-radius: 10px;
+    margin: inherit;
     padding: 5px;
-    text-align: center;
-    background-color: beige;
-    border-radius: 5px;
-    box-shadow: 0 4px #999;
+    box-shadow: 0 3px #999;
 }
 
-.button:hover {
-    color: red;
+a:hover {
+    color: dimgray;
+    background-color: #FFBA32;
 }
 
-.button:active {
-  background-color: beige;
+a:active {  
   box-shadow: 0 2px #666;
   transform: translateY(2px);
-}
-
-.main {
-    text-align: center;
-}
-
-.main p {
-    font-size: 24px;
-    color: black;
-}
-
-.footer {
-    color: black;
-    font-size: 15px;
-    position:fixed;
-    bottom:0;
 }
